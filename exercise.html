@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="exercise">
+    <div class="container">
+        <h1>Fitness Generator</h1>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter your age">
+
+        <label for="gender">Gender:</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label for="goal">Fitness Goal:</label>
+        <select id="goal">
+            <option value="weight-loss">Weight Loss</option>
+            <option value="muscle-gain">Muscle Gain</option>
+            <option value="general-fitness">General Fitness</option>
+        </select>
+
+        <button onclick="generateWorkout()">Generate Workout</button>
+
+        <div id="workout"></div>
+    </div></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+
+}
+.exercise.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgb(233, 229, 202);
+    background-color: #333;
+}
+h1{
+    color: rgb(254, 253, 253);
+    font-size: 3.4em;
+    width: 100%;
+
+    
+    background-color: #333;
+    border: 2px solid red;
+    margin-bottom: 25px;
+    margin-top: 30px ;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+
+body {
+    background-image: url('img1.jpg');
+    
+    background-size: cover;
+    
+
+    color: white; /* This ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* You can also set other properties like background-position, background-attachment, etc. */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#workout {
+    margin-top: 20px;
+    font-weight: bold;
+}
